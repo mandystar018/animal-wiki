@@ -5,9 +5,37 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Animal Wiki</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>WikiPetia</h1>
+    <p>Welcome to out WikiPetia, click on you favorite animal and we will provide more information about them.</p>
+    <form id="animals">
+      <div class="radio">
+        <label>
+          <h2>Cat</h2>
+          <input type="radio" name="animal" value="cat" checked> 
+          <img src="img/cat.jpg" alt="Pictures of a cat">
+        </label>
+        <label>
+          <h2>Dog</h2>
+          <input type="radio" name="animal" value="dog"> 
+          <img src="img/dog.jpg" alt="Pictures of a Dog">
+        </label>
+        <label>
+          <h2>Fish</h2>
+          <input type="radio" name="animal" value="fish"> 
+          <img src="img/fish.jpg" alt="Pictures of a Fish">
+        </label>
+        <label>
+          <h2>Tortoise</h2>
+          <input type="radio" name="animal" value="tortoise"> 
+          <img src="img/tortoise.jpg" alt="Pictures of a Tortoise">
+        </label>
+      </div>
+    </form>
+    <button class="btn btn-success" type="submit">Submit</button>
+  </div>
 </body>
 </html>
